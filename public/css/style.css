@@ -1,0 +1,68 @@
+.darkkhaki {
+  background: darkkhaki;
+}
+
+@media screen and (orientation: portrait) {
+  html {
+    /* ~~~~~~~~~~~~~~~KIRI~~~~~~~~~~~~~~ */
+    /* transform: rotate(-90deg);
+    transform-origin: left top;
+    overflow-x: hidden;
+    position: absolute;
+    top: 230%;
+    left: 0; */
+
+    /* ~~~~~~~~~~~~~~KANAN~~~~~~~~~~~~~ */
+    transform: rotate(90deg);
+    /* transform-origin: right top; */
+    /* width: 100vw; */
+    position: absolute;
+    overflow-x: hidden;
+    top: 0;
+    right: -100%;
+
+  }
+}
+
+ol li div {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-bottom: 5px;
+  /* border: 1px solid; */
+  width: 200px;
+}
+
+.tambahPlayer_box {
+  display: none;
+  background: darkseagreen;
+  border: 1px solid;
+  border-radius: 5px;
+  width: 300px;
+  padding: 5px;
+  text-align: center;
+}
+
+.tambahPlayer_box div {
+  margin: 15px 0 5px 0;
+}
+
+.tambahPlayer_box input {
+  border: 0;
+  border-radius: 5px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 5px;
+  margin: 0 0 5px 0;
+}
+
+.tambahPlayer_box button {
+  height: 30px;
+  width: 80px;
+}
+
+.alert_box {
+  display: none;
+  /* background: lightgreen; */
+  border: 1px solid;
+  padding: 5px;
+}
